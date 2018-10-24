@@ -8,4 +8,4 @@ A Game of Thrones themed Image memory game created with React JS
 * 4.
 
 
-Demo: https://memoryclickygame-reactjs.herokuapp.com/
+Demo: https://johnnyneagoe.github.io/Memory-ClickyGame-React/.
