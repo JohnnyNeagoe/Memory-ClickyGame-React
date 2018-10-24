@@ -10,7 +10,6 @@ const Container = props => (
                     handleClick={props.handleClick}
                     cardId={card.id}
                     guessed={props.guessed}
-                    cheat={props.cheat}
                     key={card.id}
                 >
                     <img src={require(`../../../public/images/${card.src}.jpg`)} alt={card.id} data-value={card.id} height="185" width="185"></img>

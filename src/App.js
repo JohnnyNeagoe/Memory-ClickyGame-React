@@ -9,7 +9,6 @@ class App extends Component {
         guessed: [],
         currentScore: 0,
         topScore: 0,
-        cheat: false,
         info: "Are you a Game of Thrones Guru? Click on the characters below to find out! BE CAREFUL not to click on the same character twice."
     };
 
@@ -70,20 +69,6 @@ class App extends Component {
 
         this.shuffleCards();
     }
-
-    handleCheatClick = (event) => {
-        if (document.getElementById("cheatbox").checked) {
-            this.setState({
-                cheat: true
-            });
-        } else {
-            this.setState({
-                cheat: false
-            });
-        }
-        console.log(this.state.cheat);
-    }
-
     render() {
         return (
             <div>
@@ -98,13 +83,7 @@ class App extends Component {
                         cards={this.state.cards}
                         guessed={this.state.guessed}
                         handleClick={this.handleClick}
-                        cheat={this.state.cheat}
                     />
-                </div>
-                <div className="container text-center">
-                    <form>
-                        Cheat: <input type="checkbox" onClick={this.handleCheatClick} id="cheatbox"></input>
-                    </form>
                 </div>
             </div>
         )
