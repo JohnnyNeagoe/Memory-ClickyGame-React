@@ -1,0 +1,11 @@
+.thronesChar {
+  margin: 10px;
+
+
+  cursor: pointer;
+}
+
+.thronesChar:hover {
+  transform: scale(1.05);
+  transition: .1s;
+}
