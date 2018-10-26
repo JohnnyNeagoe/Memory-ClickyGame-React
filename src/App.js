@@ -9,7 +9,7 @@ class App extends Component {
         guessed: [],
         currentScore: 0,
         topScore: 0,
-        info: "Are you a Game of Thrones Guru? Click on the characters below to find out! BE CAREFUL not to click on the same character twice."
+        info: "Are you a Game of Thrones Guru? Click on the characters below to find out! Just be careful not to click on the same character twice!"
     };
 
     componentDidMount() {
@@ -50,13 +50,13 @@ class App extends Component {
             this.setState({
                 guessed: [...this.state.guessed, event.target.getAttribute("data-value")],
                 currentScore: 1,
-                info: "Great job! You got them all! Click a new character to start a new game."
+                info: "Great job! You got them all! Click any character to start a new game."
             });        
         } else if (this.state.guessed.includes(event.target.getAttribute("data-value"))) {
             this.setState({
                 guessed: [],
                 currentScore: 0,
-                info: "Oh no, you already clicked them. To start over, click on any character."
+                info: "Oh no, you already clicked that character. To start over, click on any character below, good luck!"
             });
         } else {
             this.setState({
