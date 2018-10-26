@@ -2,9 +2,11 @@
   text-align: center !important;
   width: 100%;
   padding: 15px;
-  color: white;
+  color: black;
   background: #649173;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #DBD5A4, #649173);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
   font-family: 'Acme', sans-serif;
+  border-bottom: 10px;
+  border-color: black;
 }

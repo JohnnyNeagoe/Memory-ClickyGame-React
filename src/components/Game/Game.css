@@ -1,7 +1,6 @@
 .thronesChar {
   margin: 10px;
-
-
+  opacity: 1.00 !important;
   cursor: pointer;
 }
 
