@@ -25,7 +25,7 @@ Javascript Standard, REACT, JSX
 
 See sample screenshots of what the website looks like below:
 
-![alt text](https://github.com/JohnnyNeagoe/Memory-ClickyGame-React/blob/master/assets/img/gotShot.png?raw=true)
+![alt text](https://github.com/JohnnyNeagoe/Memory-ClickyGame-React/blob/master/pucblic/images/gotShot.png?raw=true)
 
 
 ## Tech/Frameworks used
